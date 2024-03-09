@@ -1,0 +1,19 @@
+@import '../../../assets/vars';
+
+.Title {
+    left: 35%;
+    top: 25%;
+}
+
+.TitleCurrent {
+    fill: $hover-fill !important;
+}
+
+.TitlePrev {
+    color: $inactive-border;
+}
+
+.Icon {
+    width: 240px;
+    height: 40px;
+}

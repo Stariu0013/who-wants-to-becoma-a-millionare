@@ -1,0 +1,20 @@
+@import '../../assets/vars';
+
+.WinningsBlock {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background: $white;
+}
+
+@media (max-width: $mobile) {
+    .WinningsBlock {
+        display: none;
+    }
+
+    .QuestionBlock {
+        padding: 20px;
+    }
+}

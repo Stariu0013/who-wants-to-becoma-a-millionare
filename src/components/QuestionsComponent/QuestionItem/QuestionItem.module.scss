@@ -1,0 +1,37 @@
+@import '../../../assets/vars';
+
+.Item {
+    &:hover {
+        stroke: $hover-fill;
+    }
+}
+
+.SelectedItem {
+    fill: $selected !important;
+    stroke: $selected-border !important;
+}
+
+.CorrectItem {
+    fill: $correct !important;
+    stroke: $correct-border !important;
+}
+
+.WrongItem {
+    fill: $wrong !important;
+    stroke: $wrong-border !important;
+}
+
+.Title {
+    color: $hover-fill;
+
+    > span {
+        font-weight: 600;
+        color: $blue-text;
+    }
+}
+
+@media (max-width: $tablet-max) {
+    .IconClassName {
+        width: 200px;
+    }
+}

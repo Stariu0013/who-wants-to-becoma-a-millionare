@@ -1,0 +1,29 @@
+@import "../../assets/vars";
+
+.QuestionBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 100px 60px;
+    background-color: $grey-bg;
+
+    .QuestionTitle {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .QuestionAnswers {
+        display: grid;
+        row-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: $mobile) {
+        padding: 16px;
+
+        .QuestionAnswers {
+            grid-template-columns: 1fr;
+        }
+    }
+}

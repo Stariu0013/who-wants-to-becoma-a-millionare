@@ -1,0 +1,30 @@
+@import '../../assets/vars';
+
+.Wrapper {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100vh;
+    width: 100%;
+    background-color: $grey-bg;
+
+    @media (max-width: $tablet) {
+        grid-template-columns: 1fr;
+    }
+
+    @media (max-width: $mobile) {
+        .MobileIcon {
+            display: block;
+        }
+    }
+
+}
+
+.PopupWinningBlock {
+    display: flex !important;
+    height: 100% !important;
+    background-color: transparent !important;
+}
+
+.Error {
+    text-align: center;
+}

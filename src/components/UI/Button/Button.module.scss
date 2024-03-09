@@ -1,0 +1,21 @@
+@import '../../../assets/vars';
+
+.Button {
+    font-size: $font-20;
+    background-color: $inactive-fill;
+    width: 296px;
+    height: 64px;
+    color: $white;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+
+    &:active {
+        background-color: $passed-fill;
+    }
+
+    @media (max-width: $mobile) {
+        width: 100%;
+    }
+}

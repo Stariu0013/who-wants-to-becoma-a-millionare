@@ -1,0 +1,11 @@
+.IconWrapper {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    height: fit-content;
+
+    > img {
+        width: 24px;
+        height: 24px;
+    }
+}

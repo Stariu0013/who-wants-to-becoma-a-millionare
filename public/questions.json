@@ -1,0 +1,76 @@
+{
+    "questions": [
+        {
+            "question": "What is the capital of France?",
+            "options": ["London", "Paris", "Berlin", "Madrid"],
+            "answer": "Paris",
+            "winning_sum": "$500"
+        },
+        {
+            "question": "Which planet is known as the Red Planet?",
+            "options": ["Jupiter", "Mars", "Venus", "Saturn"],
+            "answer": "Mars",
+            "winning_sum": "$1,000"
+        },
+        {
+            "question": "What is the largest mammal in the world?",
+            "options": ["Elephant", "Whale", "Giraffe", "Hippo"],
+            "answer": "Whale",
+            "winning_sum": "$2,000"
+        },
+        {
+            "question": "Who painted the Mona Lisa?",
+            "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Michelangelo"],
+            "answer": "Leonardo da Vinci",
+            "winning_sum": "$4,000"
+        },
+        {
+            "question": "Which country won the FIFA World Cup in 2018?",
+            "options": ["Germany", "Brazil", "France", "Argentina"],
+            "answer": "France",
+            "winning_sum": "$8,000"
+        },
+        {
+            "question": "What is the largest organ in the human body?",
+            "options": ["Liver", "Heart", "Skin", "Lungs"],
+            "answer": "Skin",
+            "winning_sum": "$16,000"
+        },
+        {
+            "question": "Who wrote the play 'Romeo and Juliet'?",
+            "options": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+            "answer": "William Shakespeare",
+            "winning_sum": "$32,000"
+        },
+        {
+            "question": "What is the chemical symbol for gold?",
+            "options": ["Au", "Ag", "Fe", "Hg"],
+            "answer": "Au",
+            "winning_sum": "$64,000"
+        },
+        {
+            "question": "Which famous scientist developed the theory of general relativity?",
+            "options": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Nikola Tesla"],
+            "answer": "Albert Einstein",
+            "winning_sum": "$125,000"
+        },
+        {
+            "question": "In which year did the Titanic sink?",
+            "options": ["1912", "1921", "1901", "1933"],
+            "answer": "1912",
+            "winning_sum": "$250,000"
+        },
+        {
+            "question": "Who painted 'Starry Night'?",
+            "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+            "answer": "Vincent van Gogh",
+            "winning_sum": "$500,000"
+        },
+        {
+            "question": "What is the largest ocean on Earth?",
+            "options": ["Indian Ocean", "Arctic Ocean", "Atlantic Ocean", "Pacific Ocean"],
+            "answer": "Pacific Ocean",
+            "winning_sum": "$1,000,000"
+        }
+    ]
+}

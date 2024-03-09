@@ -1,0 +1,14 @@
+@import '../../../assets/vars';
+
+.ContentWrapper {
+    width: 100%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: $max-width;
+}
